@@ -3,5 +3,6 @@
 
 # 安装
 ```js
-yarn add watermark-web
+npm i utils-water-mark
+yarn add utils-water-mark
 ```
