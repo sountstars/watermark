@@ -1,16 +1,19 @@
 {
-  "name": "watermark",
+  "name": "utils-water-mark",
   "version": "1.0.0",
-  "description": "watermark",
-  "main": "index.js",
+  "description": "water-mark",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sountstars/watermark.git"
   },
-  "author": "",
+  "keywords": [
+    "typescript"
+  ],
+  "author": "aurora",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sountstars/watermark/issues"
