@@ -1,0 +1,22 @@
+{
+  "name": "watermark",
+  "version": "1.0.0",
+  "description": "watermark",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sountstars/watermark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sountstars/watermark/issues"
+  },
+  "homepage": "https://github.com/sountstars/watermark#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
