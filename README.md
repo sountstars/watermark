@@ -3,5 +3,5 @@
 
 # 安装
 ```js
-yarn add watermark-webp
+yarn add watermark-web
 ```

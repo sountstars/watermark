@@ -21,5 +21,8 @@
   "homepage": "https://github.com/sountstars/watermark#readme",
   "devDependencies": {
     "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "rollup": "^2.72.1"
   }
 }
