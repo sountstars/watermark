@@ -4,7 +4,7 @@
   "description": "water-mark",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "tsc "
+    "build": "rollup --config rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/sountstars/watermark#readme",
   "devDependencies": {
-    "typescript": "^4.6.4",
-    "rollup": "^2.72.1"
-
+    "rollup": "^2.72.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^4.6.4"
   }
 }
