@@ -2,6 +2,8 @@
 
 背景水印
 
+# 文档链接
+`https://sountstars.github.io/watermark/`
 # 安装
 
 ```js
