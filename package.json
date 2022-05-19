@@ -1,9 +1,9 @@
 {
   "name": "utils-water-mark",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "water-mark",
   "main": "dist/index.js",
-  "module":"dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
@@ -12,7 +12,9 @@
     "url": "git+https://github.com/sountstars/watermark.git"
   },
   "keywords": [
-    "typescript"
+    "水印",
+    "watermark",
+    "water-mark"
   ],
   "files": [
     "dist"
@@ -21,7 +23,7 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/sountstars/watermark/issues",
-    "email" : "13752457571@163.com"
+    "email": "13752457571@163.com"
   },
   "homepage": "https://github.com/sountstars/watermark#readme",
   "devDependencies": {
