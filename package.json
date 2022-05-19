@@ -1,8 +1,9 @@
 {
   "name": "utils-water-mark",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "water-mark",
-  "main": "./lib/index.js",
+  "main": "dist/index.js",
+  "module":"dist/index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js"
   },
@@ -13,15 +14,20 @@
   "keywords": [
     "typescript"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "aurora",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sountstars/watermark/issues"
+    "url": "https://github.com/sountstars/watermark/issues",
+    "email" : "13752457571@163.com"
   },
   "homepage": "https://github.com/sountstars/watermark#readme",
   "devDependencies": {
     "rollup": "^2.72.1",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.6.4"
   }
 }
